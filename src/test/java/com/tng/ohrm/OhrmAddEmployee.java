@@ -27,7 +27,7 @@ public class OhrmAddEmployee {
 		driver.manage().window().maximize();
 
 		driver.get("http://opensource.demo.orangehrmlive.com/");
-
+		System.out.println("Application Opened");
 	}
 
 	@AfterClass
